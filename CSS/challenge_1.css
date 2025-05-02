@@ -21,6 +21,7 @@ body{
 }
 
 .container{
+
     padding-left: 15px;/*مسافة داخل المربع يسار*/
     padding-right: 15px;/*المسافة يمين*/
     margin-right: auto;/*مسافة خارجية*/
@@ -124,7 +125,7 @@ body{
 }
 .header .links ul::before{
     content: "";
-    border-width: 10px;
+    border-width: 9px;
     border-style: solid;
     border-color: transparent transparent var(--Backgrod-color) transparent;
     position: absolute;
