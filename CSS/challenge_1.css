@@ -3,27 +3,27 @@
     --main-color: #10cab7;
     --second-color: #2c4755;
     --Backgrod-color: #f6f6f6;
-    --section-padding: 60px;
+    --section-padding: 60px; /* البادنك المسافات*/
 }
 /* End Variables */
 
-/* Start global rules */
+/* Start global rulesالتنسيقات الرئيسية للموقع */
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;/* حركة الماوس او الموقع تكون سموووث يعني لينة*/
 }
 body{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Karla', sans-serif;/*نوع الخط*/
 }
 
 .container{
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
+    padding-left: 15px;/*مسافة داخل المربع يسار*/
+    padding-right: 15px;/*المسافة يمين*/
+    margin-right: auto;/*مسافة خارجية*/
     margin-left: auto;
 }
 /* small screen */
@@ -48,18 +48,18 @@ body{
 
 /* Start Components */
 .special-heading{
-    font-size: 100px;
+    font-size: 100px; /*حجم الخط*/
     color: #ebeced;
-    text-align: center;
-    font-weight: 800;
-    margin: auto;
-    letter-spacing: -1px;
+    text-align: center;/*المحاذاة يمين او يسار او وسط*/
+    font-weight: 800;/*ثخن او ثقل الخط*/
+    margin: auto;/*مسافة خارجية*/
+    letter-spacing: -1px;/*المسافة بين الحروف*/
 }
 .special-heading + p{
     color: #575757;
     text-align: center;
     margin: -34px 0 0;
-    font-size: 20px;
+    font-size: 21px;
 }
 @media (max-width:767px){
     .special-heading{
@@ -77,12 +77,12 @@ body{
     padding: 20px;
 }
 .header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /*طريقة عرض العناصر */
+    justify-content: space-between;/*الفراغ*/
+    align-items: center;/*محاذاة العناصر*/
 }
 .header .logo{
-    width: 70px;
+    width: 118px;
 }
 .header .links{
     position: relative;
